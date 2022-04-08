@@ -1,0 +1,12 @@
+.error-head{
+    text-align: center;
+}
+
+.error-btn{
+    padding: 7px 12px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

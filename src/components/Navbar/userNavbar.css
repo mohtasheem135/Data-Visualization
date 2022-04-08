@@ -1,0 +1,31 @@
+.user-navbar{
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 3px;
+    box-shadow: 0px 2px 6px black;
+}
+
+.user-navbar-ul{
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: space-between; */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.user-navbar-li{
+    /* border: 2px solid green; */
+    list-style: none;
+    padding: 4px 10px;
+    font-size: 20px;
+    color: white;
+    margin-right: 12px;
+
+
+}
+
+.user-navbar-li:hover{
+    background-color: grey;
+    cursor: pointer;
+    box-shadow: 2px 1px 6px grey;
+    border-radius: 3px;
+}

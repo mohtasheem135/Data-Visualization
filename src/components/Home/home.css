@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@300&family=Ubuntu:wght@300&display=swap');
+
+.home-list{
+    border: 2px solid black;
+    height: 25pc;
+    width: 20%;
+}
+
+.home-list-btn{
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    padding: 8px 42px;
+    width: 100%;
+    /* margin-top: 5px; */
+    box-shadow: 0px 1px 6px grey;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.home-list-btn:hover{
+    cursor: pointer;
+    background-color: rgb(88, 255, 88);
+    color: black;
+    box-shadow: 0px 2px 8px black;
+
+}
+
+.home-main-box{
+    position: absolute;
+    /* border: 2px solid red; */
+    top: 170px;
+    margin-left: 35%;
+    width: 50%;
+    height: 22pc;
+    display: flex;
+}
+
+.home-key-box{
+    font-family: 'Ubuntu', sans-serif;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.home-data{
+    margin-top: 70px;
+    position: absolute;
+    margin-left: -10px;
+    font-size: 19px;
+}
+
+.home-data-dfine{
+    width: 45%;
+    padding: 6px;
+    /* background-color: gray;
+    color: white; */
+    /* border: 2px solid black; */
+}
+
+@media only screen and (max-width: 500px){
+    .home-list{
+        width: 64%;
+        margin-left: 87px;
+    }
+
+    .home-main-box{
+        top: 85%;
+        margin-left: 0%;
+        width: 95%;
+    }
+    .home-data{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .home-list{
+        width: 66%;
+        margin-left: 60px;
+    }
+}
