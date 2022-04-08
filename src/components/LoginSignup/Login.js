@@ -14,7 +14,7 @@ const Login = () => {
     const navigate = useNavigate();
 
     useEffect(()=> {
-        axios.get('http://localhost:4000/app/getregister')
+        axios.get('https://data-visualize-me.herokuapp.com/app/getregister')
       .then(response => {
         setValue(response.data)
       });
