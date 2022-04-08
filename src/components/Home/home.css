@@ -4,6 +4,7 @@
     border: 2px solid black;
     height: 25pc;
     width: 20%;
+    overflow: auto;
 }
 
 .home-list-btn{
