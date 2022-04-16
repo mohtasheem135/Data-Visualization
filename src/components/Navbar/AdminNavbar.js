@@ -24,6 +24,7 @@ const AdminNavbar = () => {
         <nav className='navbar'>
             <ul className='navbar-ul'>
                 <li className='admin-navbar-li' onClick={Home}>Add Data</li>
+                <li className='admin-navbar-li' onClick={View}>View</li>
                 <li className='admin-navbar-li' onClick={Register}>Register</li>
                 <li className='admin-navbar-li' onClick={logOut}>Log Out</li>
             </ul>
