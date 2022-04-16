@@ -28,7 +28,7 @@ const Login = () => {
         setPassword(e.target.value)
     }
 
-    const x=0;
+    var x;
 
     const handelClick = () => {
 
