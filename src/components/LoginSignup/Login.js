@@ -31,9 +31,14 @@ const Login = () => {
     const handelClick = () => {
 
         localStorage.setItem('admin-email', email)
+        const x=0;
 
         Object.keys(value).map((id, index) => {
-            if(value[id].Email === email && value[id].Password === password) {
+            if(value[id].Email === email && value[id].Password === password){
+                x=1;
+            }
+
+            if(x===1) {
                 alert("You are successfully logged in !!!!")
                 navigate('/adminhome')
                 
