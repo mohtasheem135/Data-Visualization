@@ -7,6 +7,7 @@ import Error from './components/Error/Error';
 import Home from './components/Home/Home';
 import Login from './components/LoginSignup/Login';
 import Register from './components/LoginSignup/Register/Register';
+import View from "./components/View/View"
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path='/register' element={<Register />} />
         <Route path='/adminhome' element={<AdminHome />} />
         <Route path='/error' element={<Error />} />
+        <Route path='/view' element={<View />} />
       </Routes>
     </div>
   )
