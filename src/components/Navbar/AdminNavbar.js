@@ -18,6 +18,10 @@ const AdminNavbar = () => {
     const Register=()=> {
         navigate('/register');
     }
+    
+    const View=()=> {
+        navigate('/view');
+    }
 
   return (
     <div>
