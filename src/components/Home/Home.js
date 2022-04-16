@@ -12,7 +12,7 @@ const Home = () => {
 
   useEffect(() => {
 
-    axios.get('https://data-visualize-me.herokuapp.com/app/getddata')
+    axios.get('https://me-visualization.herokuapp.com/app/getddata')
       .then(response => {
         setValue(response.data)
       });
