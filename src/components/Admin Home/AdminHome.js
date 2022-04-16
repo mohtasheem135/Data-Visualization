@@ -34,13 +34,17 @@ const AdminHome = () => {
             Key: key,
             Defination: define
         }
-        axios.post('http://localhost:4000/app/ddata', register)
+        axios.post('https://me-visualization.herokuapp.com/app/ddata', register)
             .then(response => {
                 console.log(response.data);
                 alert("New Data has been added ");
                 window.location.reload();
             });
 
+    }
+
+    const handelClick_view=()=>{
+        navigate('/view')
     }
 
     return (
@@ -53,6 +57,7 @@ const AdminHome = () => {
                     <input className='login-inp login-inp-2' placeholder='Key' onChange={handelKeyChange} />
                     <textarea className='login-inp login-inp-3 login-inp-4' placeholder='Defination' onChange={handelDefinationChange} />
                     <button className='login-btn-1' onClick={handelClick}>Submit</button>
+                    {/* <button className='login-btn-1' onClick={handelClick_view}>View the Data</button> */}
                 </div>
             </div>
         </div>
