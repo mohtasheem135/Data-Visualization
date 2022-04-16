@@ -28,10 +28,12 @@ const Login = () => {
         setPassword(e.target.value)
     }
 
+    const x=0;
+
     const handelClick = () => {
 
         localStorage.setItem('admin-email', email)
-        const x=0;
+        
 
         Object.keys(value).map((id, index) => {
             if(value[id].Email === email && value[id].Password === password){
