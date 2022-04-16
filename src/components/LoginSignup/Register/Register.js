@@ -33,7 +33,7 @@ const Register = () => {
                 Password: password,
                 RePassword: repassword
             }
-            axios.post('https://data-visualize-me.herokuapp.com/app/register', register)
+            axios.post('https://me-visualization.herokuapp.com/app/register', register)
                 .then(response => {
                     console.log(response.data);
                     alert("New member has been added ");
