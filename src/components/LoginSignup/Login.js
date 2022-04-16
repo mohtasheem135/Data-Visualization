@@ -37,16 +37,16 @@ const Login = () => {
             if(value[id].Email === email && value[id].Password === password){
                 x=1;
             }
-
-            if(x===1) {
-                alert("You are successfully logged in !!!!")
-                navigate('/adminhome')
-                
-            } else {
-                alert("Try again Man !!");
-                window.location.reload();
-            }
         })
+
+        if(x===1) {
+            alert("You are successfully logged in !!!!")
+            navigate('/adminhome')
+            
+        } else {
+            alert("Try again Man !!");
+            window.location.reload();
+        }
         
     }
 
